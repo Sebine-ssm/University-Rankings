@@ -41,8 +41,8 @@ This project uses a Devcontainer installed and run locally which provides a deve
 Write the code to connect with the SQLite database in the terminal.
 
 ```
-sqlite3 university_database.db ```
-
+sqlite3 university_database.db 
+  ```
 To get out of the sqlite terminal, type '.quit'
 
 ## About using SQLite
