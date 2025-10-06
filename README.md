@@ -3,10 +3,10 @@ Understanding University Rankings using SQLite Database System.
 
 ## Project Structure
 - ```.devcontainer``` - The devcontainer file.
-- ```.gitignore```- The file that tells Git to intentionally ignore specific files and directories within this repository. 
+- ```.gitignore```- The file that tells Git to intentionally ignore specific files and directories within this repository.
+- ```CRUD_operatins.sql``` - The file that has the SQL queries for performing CRUD (Create, Read, Update, and Delete) operations.
 - ```README.md``` - The document that details the processes that went into this project.
 - ```basic_analysis.sql``` - The file that has the SQL queries for performing basic analysis like calculating the total number of rows, the minimum, maximum and average values of 'quality_of_education', 'alumni_employment', 'quality_of_faculty', 'broad_impact', 'influence','patents' and 'publications' columns before and after performing the CRUD operations. 
-- ```CRUD_operatins.sql``` - The file that has the SQL queries for performing CRUD (Create, Read, Update, and Delete) operations.
 - ```university_database.db``` - The database that holds the information which we are analyzing. It has a table named 'university_rankings'. 
 
 ## Devcontainer
