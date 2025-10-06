@@ -32,8 +32,8 @@ This project uses a Devcontainer installed and run locally which provides a deve
 
 	"customizations": {},
 
-	"remoteUser": "root"
-    ```
+	"remoteUser": "root" ```
+
 - Then clicked on the blue box on the bottom left corner and selected 'Rebuild Container' in the pop-up at the top. This process ensures that my Dev Contanier is setup every time I open the file and that it would connect with the database that I am working with. 
 
 ## Connecting to the Database
