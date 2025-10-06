@@ -20,8 +20,7 @@ This project uses a Devcontainer installed and run locally which provides a deve
 - The name of my Dev Container is 'Alpine'
 - You will see a devcontainer.json file which has the JSON script of how your Dev Conatiner will work.
 - Went into the JSON file and added this code:
-```
-"name": "Alpine",
+```"name": "Alpine",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
 	"postCreateCommand": "apk update && apk add sqlite sqlite-libs", 
@@ -32,7 +31,8 @@ This project uses a Devcontainer installed and run locally which provides a deve
 
 	"customizations": {},
 
-	"remoteUser": "root" ```
+	"remoteUser": "root"
+																																			```
 
 - Then clicked on the blue box on the bottom left corner and selected 'Rebuild Container' in the pop-up at the top. This process ensures that my Dev Contanier is setup every time I open the file and that it would connect with the database that I am working with. 
 
@@ -42,7 +42,7 @@ Write the code to connect with the SQLite database in the terminal.
 
 ```
 sqlite3 university_database.db
-```
+								```
 To get out of the sqlite terminal, type '.quit'
 
 ## About using SQLite
